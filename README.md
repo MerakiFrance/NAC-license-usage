@@ -38,23 +38,27 @@ The script also handles existing Excel files gracefully:
     
 *   Python packages:
     
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip install pandas openpyxl requests   `
+```
+pip install pandas openpyxl requests
+```
 
 🚀 Usage
 --------
 
 1.  Clone this repository or download the script:
     
+```
+git clone <your-github-repo-url>
+cd <repo-folder>
+```
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`git clone   cd` 
-
-1.  Run the script:
+2.  Run the script:
     
+```
+python3 get_nac_license_usage_with_export_en_v2.py
+```
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python3 get_nac_license_usage_with_export_en_v2.py   `
-
-1.  Follow the prompts:
+3.  Follow the prompts:
     
 
 *   Enter your **Meraki API key**
@@ -68,7 +72,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 *   Choose whether to **export the data to Excel**
     
 
-1.  **Export behavior**:
+4.  **Export behavior**:
     
 
 *   If nac\_license\_usage.xlsx does not exist → created automatically
