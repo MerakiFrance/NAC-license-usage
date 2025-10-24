@@ -48,8 +48,8 @@ pip install pandas openpyxl requests
 **1.  Clone this repository or download the script:**
     
 ```
-git clone <your-github-repo-url>
-cd <repo-folder>
+git clone https://github.com/MerakiFrance/NAC-license-usage
+cd NAC-license-usage
 ```
 
 **2.  Run the script:**
