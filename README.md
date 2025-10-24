@@ -55,7 +55,7 @@ cd NAC-license-usage
 **2.  Run the script:**
     
 ```
-python3 get_nac_license_usage_with_export_en_v2.py
+python3 get_nac_license_usage_with_export_en.py
 ```
 
 **3.  Follow the prompts:**
