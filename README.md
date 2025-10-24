@@ -105,6 +105,5 @@ The Excel file will contain two columns:
 ⚠️ Notes
 --------
 
-*   The script expects the Meraki API response to contain the usageData field, which is standard for NAC license usage API endpoints.
     
 *   The script has been tested on macOS with Python 3.11. Using older Python versions may cause compatibility issues.
